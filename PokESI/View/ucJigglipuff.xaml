@@ -1,0 +1,253 @@
+﻿<UserControl
+    x:Class="PokESI.ucJigglipuff"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PokESI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="500"
+    d:DesignWidth="500">
+
+
+    <Grid>
+        <Canvas x:Name="Jigglipuff" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="300" Width="353">
+            <Canvas.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Canvas.RenderTransform>
+            <Path x:Name="pata_izq" Height="35" Stroke="Black" Data="M37.271081,-0.18324536 C49.723374,-0.18324488 63.041534,2.669769 70.181839,6.0478892 L70.295105,6.1028156 70.066574,6.2242708 C68.170929,7.2896452 66.57016,9.0670972 65.666992,11.354652 63.740234,16.234766 65.717972,21.58841 70.084389,23.312352 70.357292,23.420098 70.633064,23.511117 70.910751,23.585883 L70.922516,23.5887 70.752083,23.675581 C63.639957,27.211363 57.433348,33.658602 44.644503,33.658602 23.105398,33.658602 1.0582453,24.029962 1.0582453,16.021833 1.0582453,9.3899953 7.5779401,2.1077888 23.927087,0.38157843 27.319991,0.023341687 33.569332,-0.18324528 37.271081,-0.18324536 z" RenderTransformOrigin="0.553046886116017,0.500000007947286" Stretch="Fill" Width="70" Canvas.Left="67.866" Canvas.Top="232.274">
+                <Path.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFF2CFD6" Offset="0.3"/>
+                        <GradientStop Color="#FFD1BABA" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-21.545"/>
+                        <TranslateTransform X="0.95672136949584541" Y="0.028420014050677622"/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path x:Name="brazo_izq" Height="29" Stroke="Black" Data="M35,0.5 C44.526913,0.50000045 53.151913,2.0110395 59.395184,4.4540586 L59.781693,4.6089515 59.759037,4.6357598 C58.076797,6.7522235 57.70517,10.326043 59.051216,13.802473 60.397263,17.278903 63.078686,19.670603 65.747574,20.102345 L65.776253,20.106104 65.725723,20.145897 C60.010876,24.511862 57.661794,27.681662 44.264574,27.681662 25.21075,27.681662 -1.3612347,22.85977 -1.3612347,15.403925 -1.3612347,9.7401448 8.1938591,2.7551419 20.831014,0.75129041 24.829507,0.11725627 30.420281,0.50000011 35,0.5 z" RenderTransformOrigin="0.528092620652953,0.500000007982765" Stretch="Fill" Width="68" Canvas.Left="37.866" Canvas.Top="169.274" >
+                <Path.Fill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#FFD1BABA" Offset="1"/>
+                        <GradientStop Color="#FFF2CFD6" Offset="0.3"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="21.166"/>
+                        <TranslateTransform X="-0.2517877565349913" Y="0.347627244074058"/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path x:Name="pata_dcha" Height="32" Stroke="Black" Width="71" Data="M37.313446,-1.6255312 C56.367271,-1.6255309 70.126425,5.012763 70.126425,13.573177 70.126425,22.13359 48.046524,29.91234 28.992698,29.91234 21.097904,29.91234 14.440568,27.618134 9.7247586,25.559536 3.0591175,22.649775 0.49999979,21.013477 0.5,16 0.49999964,14.662436 0.87710357,13.364442 1.5861509,12.126309 L1.6738396,11.980722 1.7905607,12.207486 C3.48286,15.373422 5.6444312,17.517803 6.6185662,16.997097 7.5926996,16.476389 7.010512,13.487774 5.3182126,10.321838 5.1066753,9.9260953 4.8878056,9.5463155 4.6648389,9.1857074 L4.426602,8.8138965 -0.41429556,12.050667 C5.427909,7.2189265 24.213941,-1.6255309 37.313446,-1.6255312 z" RenderTransformOrigin="0.499999997445515,0.500000004656613" Stretch="Fill" Canvas.Left="182.866" Canvas.Top="246.274">
+                <Path.Fill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#FFD1BABA" Offset="1"/>
+                        <GradientStop Color="#FFF2CFD6" Offset="0.3"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="28.126"/>
+                        <TranslateTransform X="-0.059043481303898915" Y="0.23570606338779143"/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Ellipse  x:Name="Cuerpo" Height="213" Stroke="Black" Width="218" Canvas.Left="64.866" Canvas.Top="50.274" >
+                <Ellipse.Fill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#FFD1BABA" Offset="1"/>
+                        <GradientStop Color="#FFF2CFD6" Offset="0.8"/>
+                    </LinearGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Image Stretch="Fill" Source="pack://siteoforigin:,,,/69f9f8c452ffa30759397865c98cbfc5.png" Height="75" Canvas.Left="-21.334" Canvas.Top="108.533" Width="25" Visibility="Collapsed"/>
+            <Path x:Name="brazo_der" Data="M145.4,191.78289 C145.4,191.78289 154.29999,218.68279 166.29999,218.08279 178.29999,217.48279 176.74998,184.59819 176.74998,184.59819" Fill="#FFF2CFD6" Height="34" Canvas.Left="206.6" Stretch="Fill" Stroke="Black" Canvas.Top="219.483" Width="33" d:IsLocked="True"/>
+            <Path Data="M185.46667,47.432893" Fill="#FFF4F4F5" Height="1" Canvas.Left="246.667" Stretch="Fill" Stroke="Black" Canvas.Top="82.233" Width="1"/>
+            <Path Data="M120,81.032893 C120,81.032893 130.96667,69.066116 137.36667,69.59945 143.76667,70.132783 172.33837,66.546883 172.06595,62.382973" Height="19" Canvas.Left="181.2" Stretch="Fill" Stroke="Black" Canvas.Top="97.466" Width="52" d:IsHidden="True"/>
+            <Ellipse x:Name="ojo_izq" Height="68" Canvas.Left="84.936" Stroke="Black" Canvas.Top="100.504" Width="57" RenderTransformOrigin="0.5,0.5">
+                <Ellipse.Fill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#FFCECECE" Offset="1"/>
+                        <GradientStop Color="White" Offset="0.4"/>
+                    </LinearGradientBrush>
+                </Ellipse.Fill>
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="25.385"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse x:Name="ojo_dcha" Height="68" Canvas.Left="186.914" Stroke="Black" Canvas.Top="135.155" Width="61" RenderTransformOrigin="0.5,0.5">
+                <Ellipse.Fill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#FFCECECE" Offset="1"/>
+                        <GradientStop Color="White" Offset="0.4"/>
+                    </LinearGradientBrush>
+                </Ellipse.Fill>
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="25.385"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse x:Name="iris_izq" Height="49" Canvas.Left="98.327" Stroke="Black" Canvas.Top="108.426" Width="43" RenderTransformOrigin="0.5,0.5">
+                <Ellipse.Fill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#FF054F5D" Offset="1"/>
+                        <GradientStop Color="#FF09A5C3" Offset="0.4"/>
+                    </LinearGradientBrush>
+                </Ellipse.Fill>
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="25.385"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse x:Name="iris_dcha" Height="52" Canvas.Left="199.997" Stroke="Black" Canvas.Top="142.612" Width="46" RenderTransformOrigin="0.5,0.5">
+                <Ellipse.Fill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#FF054652" Offset="1"/>
+                        <GradientStop Color="#FF09A5C3" Offset="0.4"/>
+                    </LinearGradientBrush>
+                </Ellipse.Fill>
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="25.385"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Path x:Name="Boca" Data="M77.4,139.03289 C77.4,139.03289 91.900002,160.53279 111.3,148.53279" Height="14" Canvas.Left="138.6" Stretch="Fill" Stroke="Black" Canvas.Top="173.833" Width="35" />
+            <Ellipse x:Name="Boca2" Height="32" Canvas.Left="139.838" Stroke="Black" Canvas.Top="167.663" Width="29" Opacity="0" Visibility="Collapsed">
+                <Ellipse.Fill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#FFAD0D5D" Offset="1"/>
+                        <GradientStop Color="#FFF65DAA" Offset="0.347"/>
+                    </LinearGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse x:Name="ojoB_izq" Height="13" Canvas.Left="124.392" Canvas.Top="115.666" Width="14" Fill="White"/>
+            <Ellipse x:Name="ojoB_dcha" Height="13" Canvas.Left="225.6" Canvas.Top="147.315" Width="14" Fill="White"/>
+            <Path x:Name="oreja_dcha"  Data="M182.86667,51.499559 C182.86667,51.499559 205.88195,48.977137 227.74211,52.883285 248.40818,56.576065 267.99149,66.612027 267.81971,69.798643 266.4134,95.886429 220.90729,128.64251 220.90729,128.64251" Height="78" Canvas.Left="244.067" Stretch="Fill" Stroke="Black" Canvas.Top="85.514" Width="86">
+                <Path.Fill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#FFD1BABA" Offset="1"/>
+                        <GradientStop Color="#FFF2CFD6" Offset="0"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <Path x:Name="oido_dcha"  Data="M203.46625,65.791346 C203.46625,65.791346 201.71281,60.928099 223.57297,64.834247 244.23904,68.527027 274.66367,69.685573 274.49189,72.872189 273.08558,98.959975 223.93067,126.92299 223.93067,126.92299 L217.25104,94.757463 z" Height="49" Canvas.Left="267.677" Stretch="Fill" Stroke="Black" Canvas.Top="101.556" Width="51">
+                <Path.Fill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#FF51586A" Offset="0.5"/>
+                        <GradientStop Color="#FF242C40" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <Path x:Name="oreja_izq"  Data="M179.34051,44.831576 C179.34051,44.831576 204.01556,46.288932 225.87572,50.19508 246.54179,53.88786 267.99149,66.612027 267.81971,69.798643 266.4134,95.886429 224.08142,133.10634 224.08142,133.10634" Height="88" Canvas.Left="84.547" Stretch="Fill" Stroke="Black" Canvas.Top="17.622" Width="90" RenderTransformOrigin="0.5,0.5">
+                <Path.Fill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#FFD1BABA" Offset="1"/>
+                        <GradientStop Color="#FFF2CFD6" Offset="0.274"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-91.272"/>
+                        <TranslateTransform X="2.9543703563737651" Y="-7.1105009765183524"/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path x:Name="Pelico"  Data="M184.8,48.366226 C184.8,48.366226 191.5,14.266452 148.3,4.3997854 105.1,-5.4668812 78.934134,50.031181 78.934134,50.031181 78.934134,50.031181 75.22727,78.555621 85.818313,89.709563 96.409357,100.8635 112.97205,109.96453 125.63812,101.21662 125.63812,101.21662 147.8532,93.578502 137.56203,69.499717" Height="103" Canvas.Left="139.267" Stretch="Fill" Stroke="Black" Canvas.Top="38.024" Width="109">
+                <Path.Fill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#FFD1BABA" Offset="1"/>
+                        <GradientStop Color="#FFF2CFD6" Offset="0.8"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <Path x:Name="oido_izq"  Data="M216.4836,67.054444 C216.4836,67.054444 214.44324,63.000692 236.3034,66.90684 256.96947,70.59962 274.66367,69.685573 274.49189,72.872189 273.08558,98.959975 223.93067,126.92299 223.93067,126.92299 L220.97369,94.686732 z" Height="48" Canvas.Left="82.878" Stretch="Fill" Stroke="Black" Canvas.Top="22.738" Width="42" RenderTransformOrigin="0.5,0.5">
+                <Path.Fill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#FF242C40" Offset="1"/>
+                        <GradientStop Color="#FF51586A" Offset="0.5"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleX="-1"/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="55.833"/>
+                        <TranslateTransform X="7.4409332288885537" Y="3.9425153221473366"/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path x:Name="spiral1" Data="M106.88954,137.1793 C106.88954,137.1793 122.6,136.21852 116.4,146.41852 110.2,156.61852 92.841974,140.20019 92.841974,140.20019 92.841974,140.20019 83.456094,117.20919 108.88333,119.87582 134.31057,122.54244 131.82692,123.96914 128.54223,147.89592 125.25754,171.82271 94.320326,156.99894 94.320326,156.99894 94.320326,156.99894 80.092135,145.15301 86.154883,129.0708" Height="45" Canvas.Left="80.392" Stretch="Fill" Stroke="Black" Canvas.Top="115.315" Width="51" Visibility="Collapsed" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path x:Name="spiral1_Copy" Data="M106.88954,137.1793 C106.88954,137.1793 122.6,136.21852 116.4,146.41852 110.2,156.61852 92.841974,140.20019 92.841974,140.20019 92.841974,140.20019 83.456094,117.20919 108.88333,119.87582 134.31057,122.54244 131.82692,123.96914 128.54223,147.89592 125.25754,171.82271 94.320326,156.99894 94.320326,156.99894 94.320326,156.99894 80.092135,145.15301 86.154883,129.0708" Height="45" Canvas.Left="193.067" Stretch="Fill" Stroke="Black" Canvas.Top="142.833" Width="51" Visibility="Collapsed" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Canvas x:Name="Micro1" Height="90" Canvas.Left="28.8" Canvas.Top="116.466" Width="36" RenderTransformOrigin="0.5,0.5" Visibility="Collapsed">
+                <Canvas.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Canvas.RenderTransform>
+                <Ellipse Height="41" Canvas.Left="13.001" Stroke="Black" Canvas.Top="33.2" Width="14" Fill="Black"/>
+                <Ellipse Height="32" Canvas.Left="10" Stroke="Black" Canvas.Top="7.067" Width="22" Fill="#FF00794C"/>
+            </Canvas>
+        </Canvas>
+        <Path Grid.Column="1" Data="M116.26667,273.77333" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="75,188,0,0" Grid.Row="2" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Path Grid.Column="1" Data="M117.33333,277.90667" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="193,115,0,0" Grid.Row="3" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Path Grid.Column="1" Data="M193.8,295.44" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="153,209,0,0" Grid.Row="2" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Path Grid.Column="1" Data="M140.73333,271.10667" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="100,185,0,0" Grid.Row="2" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+
+    </Grid>
+</UserControl>
