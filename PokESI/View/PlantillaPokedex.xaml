@@ -10,22 +10,11 @@
     d:DesignWidth="250">
 
     <Grid HorizontalAlignment="Right" Width="250">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="13*"/>
-            <RowDefinition Height="127*"/>
-            <RowDefinition Height="27*"/>
-            <RowDefinition Height="28*"/>
-            <RowDefinition Height="5*"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="10*"/>
-            <ColumnDefinition Width="163*"/>
-            <ColumnDefinition Width="10*"/>
-        </Grid.ColumnDefinitions>
 
-        <Image x:Name="Image" Grid.Column="1" Stretch="Uniform" Margin="0,13,0,12" HorizontalAlignment="Center" Width="150" Grid.Row="1"/>
-        <TextBlock x:Name="Id" Grid.Row="2" TextWrapping="Wrap" Text="ID" Height="27" TextAlignment="Center" FontFamily="Berlin Sans FB" Foreground="Black" FontSize="25" Grid.Column="1" Margin="76,0,82,0" VerticalAlignment="Center"/>
-        <TextBlock x:Name="Nombre" Grid.Row="3" TextWrapping="Wrap"  Text="Name" TextAlignment="Center" FontFamily="Berlin Sans FB" Foreground="Black" FontSize="25" Height="29" Grid.Column="1" Margin="21,0,0,0" HorizontalAlignment="Left" Width="177" VerticalAlignment="Center"/>
+
+        <Image x:Name="Image" Stretch="Uniform" Margin="0,13,0,61" HorizontalAlignment="Center" Width="183"/>
+        <TextBlock x:Name="Id" TextWrapping="Wrap" Text="ID" Height="27" TextAlignment="Center" FontFamily="Berlin Sans FB" Foreground="Black" FontSize="25" Margin="85,191,84,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Nombre" TextWrapping="Wrap"  Text="Name" TextAlignment="Center" FontFamily="Berlin Sans FB" Foreground="Black" FontSize="25" Height="29" Margin="34,218,0,0" HorizontalAlignment="Left" Width="177" VerticalAlignment="Top"/>
 
     </Grid>
 </UserControl>

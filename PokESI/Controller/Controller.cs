@@ -1,6 +1,8 @@
 ﻿using Microsoft.Toolkit.Uwp.Notifications;
+using RestSharp;
 using System;
 using System.Collections.Generic;
+using System.ServiceModel.Channels;
 using System.Xml;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -573,23 +575,22 @@ namespace PokESI
             }
         }
 
-
+        
         public static void getPokeID(int id)
         {
 
-            var client = new RestClient("https://pokeapi.glitch.me/v1/pokemon/"+id);
+            var client = new RestClient();
             var request = new RestRequest(Method.GET);
+            client.AddDefaultHeader("accept", "application/json");
+            client.AddDefaultHeader("X-AUTH-TOKEN", "7bcdb557-3e27-4627-a4a5-40e6ef01cc16");
             var response = client.Execute(request);
             if (response.IsSuccessful)
             {
-                newPokemon(response);
-                addPokemon();
-              
 
-
-    
             }
-        }*/
+        }
+        */
 
     }
 }
+
